@@ -45,7 +45,7 @@ const Doctors = () => {
       location: 'Pediatrics Department',
       phone: '+1 (555) 123-4569',
       email: 'emily.rodriguez@medcare.com',
-      description: 'Dr. Rodriguez is passionate about children\'s health and provides comprehensive care from birth through adolescence.',
+      description: 'Dr. Rodriguez is passionate about children&apos;s health and provides comprehensive care from birth through adolescence.',
       specialties: ['Well-Child Care', 'Immunizations', 'Behavioral Health', 'Adolescent Medicine']
     },
     {
@@ -188,7 +188,7 @@ const Doctors = () => {
         <div className="text-center mt-16">
           <div className="bg-white rounded-2xl shadow-lg p-8">
             <h3 className="text-2xl font-bold text-gray-900 mb-4">
-              Can't Find the Right Doctor?
+              Can&apos;t Find the Right Doctor?
             </h3>
             <p className="text-gray-600 mb-6 max-w-2xl mx-auto">
               Our team can help you find the perfect doctor for your specific needs. 
