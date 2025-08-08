@@ -44,9 +44,9 @@ export default function AppointmentConfirmation() {
               A Message from Dr. Pooja
             </h3>
             <p className="text-gray-600">
-              "Thank you for trusting us with your recovery journey. I'm looking forward to helping you 
-              achieve your health and mobility goals. Please don't hesitate to reach out if you have 
-              any questions before your appointment."
+              &quot;Thank you for trusting us with your recovery journey. I&apos;m looking forward to helping you 
+              achieve your health and mobility goals. Please don&apos;t hesitate to reach out if you have 
+              any questions before your appointment.&quot;
             </p>
           </div>
 
@@ -90,4 +90,4 @@ export default function AppointmentConfirmation() {
       </div>
     </div>
   )
-} 
+}

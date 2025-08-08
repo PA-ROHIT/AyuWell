@@ -1,4 +1,5 @@
 import { Star, Award, MapPin, Phone, Mail, Heart, Users, Clock, ArrowRight } from 'lucide-react'
+import Image from 'next/image'
 import { Card, CardHeader, CardTitle, CardDescription, CardContent } from './ui/Card'
 import Link from 'next/link'
 import Button from './ui/Button'
@@ -41,12 +42,13 @@ const About = () => {
           {/* Image Section */}
           <div className="relative slide-in-right">
             <div className="relative rounded-2xl overflow-hidden shadow-2xl">
-              <img
+              <Image
                 src="/doctor-image.jpg"
                 alt="Dr. Pooja"
+                width={800}
+                height={600}
                 className="w-full h-[600px] object-cover transition-transform duration-500 hover:scale-[1.02]"
-                loading="eager"
-                priority="true"
+                priority
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/50 to-transparent"></div>
               

@@ -1,4 +1,4 @@
-import { CheckCircle, Calendar, Clock, Phone, MessageCircle, ArrowLeft, MapPin, FileText, User, Heart } from 'lucide-react'
+import { CheckCircle, Calendar, Clock, Phone, MessageCircle, ArrowLeft, MapPin, FileText, User, Heart, Mail } from 'lucide-react'
 import Link from 'next/link'
 import Button from '@/components/ui/Button'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card'
@@ -125,9 +125,9 @@ export default function Appointment() {
                       A Message from Dr. Pooja
                     </h3>
                     <p className="text-gray-600">
-                      "Thank you for choosing Ayu Well for your physiotherapy care. I'm looking forward to helping you 
-                      achieve your recovery goals. Please don't hesitate to reach out if you have any questions before 
-                      your appointment. Your health and well-being are my top priorities."
+                      &quot;Thank you for choosing Ayu Well for your physiotherapy care. I&apos;m looking forward to helping you 
+                      achieve your recovery goals. Please don&apos;t hesitate to reach out if you have any questions before 
+                      your appointment. Your health and well-being are my top priorities.&quot;
                     </p>
                   </div>
                 </div>
@@ -261,4 +261,4 @@ export default function Appointment() {
       </div>
     </div>
   )
-} 
+}

@@ -1,4 +1,5 @@
 import { ArrowRight, CheckCircle, Clock, Users, Phone, MessageCircle } from 'lucide-react'
+import Image from 'next/image'
 import Button from './ui/Button'
 import Link from 'next/link'
 
@@ -70,10 +71,13 @@ const Hero = () => {
           {/* Image Section */}
           <div className="relative lg:block fade-in" style={{animationDelay: '0.4s'}}>
             <div className="relative w-full h-[600px] rounded-2xl overflow-hidden shadow-2xl transform hover:scale-[1.02] transition-transform duration-500">
-              <img
+              <Image
                 src="/doctor-image.jpg"
                 alt="Dr. Pooja - Physiotherapist"
+                width={800}
+                height={600}
                 className="w-full h-full object-cover"
+                priority
               />
               
               {/* Overlay Card */}

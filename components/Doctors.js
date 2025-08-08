@@ -45,7 +45,7 @@ const Doctors = () => {
       location: 'Pediatrics Department',
       phone: '+1 (555) 123-4569',
       email: 'emily.rodriguez@medcare.com',
-      description: 'Dr. Rodriguez is passionate about children\'s health and provides comprehensive care from birth through adolescence.',
+      description: "Dr. Rodriguez is passionate about children's health and provides comprehensive care from birth through adolescence.",
       specialties: ['Well-Child Care', 'Immunizations', 'Behavioral Health', 'Adolescent Medicine']
     },
     {

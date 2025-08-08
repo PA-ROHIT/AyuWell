@@ -101,7 +101,7 @@ const Contact = () => {
               <CardHeader>
                 <CardTitle className="text-2xl">Book Your Appointment</CardTitle>
                 <p className="text-gray-600">
-                  Fill out the form below and we'll get back to you within 24 hours to confirm your appointment.
+                  Fill out the form below and we&apos;ll get back to you within 24 hours to confirm your appointment.
                 </p>
               </CardHeader>
               <CardContent>
@@ -354,4 +354,4 @@ const Contact = () => {
   )
 }
 
-export default Contact 
+export default Contact
