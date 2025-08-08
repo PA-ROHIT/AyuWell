@@ -1,7 +1,9 @@
+import { Mail } from "lucide-react";
 import { CheckCircle, Calendar, Clock, Phone, MessageCircle, ArrowLeft, MapPin, FileText, User, Heart } from 'lucide-react'
 import Link from 'next/link'
 import Button from '@/components/ui/Button'
 import { Card, CardHeader, CardTitle, CardContent } from '@/components/ui/Card'
+
 
 export default function Appointment() {
   // This would typically come from a database or state management
