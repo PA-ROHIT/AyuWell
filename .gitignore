@@ -1,1 +1,26 @@
+# Dependencies
 node_modules
+
+# Next.js build output
+.next
+.next/
+
+# Debug
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Local env files
+.env*.local
+.env
+
+# Vercel
+.vercel
+
+# Build
+out/
+build/
+
+# Misc
+.DS_Store
+*.pem
